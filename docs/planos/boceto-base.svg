@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <style>
+    .line { stroke: #111; stroke-width: 4; fill: none; }
+    .light { stroke: #666; stroke-width: 2; fill: none; stroke-dasharray: 8 8; }
+    .text { font-family: Arial, sans-serif; font-size: 24px; fill: #111; }
+    .small { font-family: Arial, sans-serif; font-size: 18px; fill: #333; }
+    .label { font-family: Arial, sans-serif; font-size: 20px; fill: #0a4; }
+  </style>
+
+  <text x="40" y="50" class="text">Proyecto Arenero - Boceto base para completar medidas</text>
+
+  <rect x="80" y="520" width="950" height="18" fill="#222" />
+  <circle cx="290" cy="540" r="95" class="line" />
+  <circle cx="290" cy="540" r="45" class="light" />
+  <circle cx="910" cy="540" r="120" class="line" />
+  <circle cx="910" cy="540" r="55" class="light" />
+
+  <polyline points="150,450 240,360 430,360 560,250 770,250 920,250 1010,320 1045,430" class="line"/>
+  <polyline points="1045,430 1120,430 1120,250 900,250" class="line"/>
+  <polyline points="560,250 560,430 1045,430" class="line"/>
+  <polyline points="430,360 430,430 560,430" class="line"/>
+  <polyline points="150,450 150,430 430,430" class="line"/>
+
+  <line x1="520" y1="250" x2="600" y2="430" class="line"/>
+  <line x1="670" y1="250" x2="670" y2="430" class="line"/>
+  <line x1="760" y1="250" x2="840" y2="430" class="line"/>
+
+  <rect x="655" y="360" width="140" height="60" class="line"/>
+  <line x1="725" y1="420" x2="725" y2="500" class="line"/>
+  <line x1="775" y1="420" x2="775" y2="500" class="line"/>
+  <line x1="600" y1="320" x2="600" y2="380" class="line"/>
+  <circle cx="600" cy="320" r="45" class="line"/>
+
+  <rect x="220" y="385" width="180" height="45" class="light"/>
+  <text x="240" y="412" class="small">Motor 6L</text>
+
+  <rect x="465" y="390" width="120" height="40" class="light"/>
+  <text x="480" y="415" class="small">Tablero</text>
+
+  <rect x="1010" y="220" width="180" height="45" class="light"/>
+  <text x="1030" y="247" class="small">Baca / techo</text>
+
+  <text x="80" y="620" class="label">Completar: largo total</text>
+  <line x1="120" y1="660" x2="1120" y2="660" class="light"/>
+  <line x1="120" y1="645" x2="120" y2="675" class="light"/>
+  <line x1="1120" y1="645" x2="1120" y2="675" class="light"/>
+
+  <text x="570" y="735" class="label">Completar: distancia entre ejes</text>
+  <line x1="290" y1="760" x2="910" y2="760" class="light"/>
+  <line x1="290" y1="745" x2="290" y2="775" class="light"/>
+  <line x1="910" y1="745" x2="910" y2="775" class="light"/>
+
+  <text x="1140" y="390" class="label">Completar: altura total</text>
+  <line x1="1180" y1="250" x2="1180" y2="540" class="light"/>
+  <line x1="1165" y1="250" x2="1195" y2="250" class="light"/>
+  <line x1="1165" y1="540" x2="1195" y2="540" class="light"/>
+</svg>
