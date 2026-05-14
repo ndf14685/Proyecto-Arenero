@@ -1,0 +1,32 @@
+schema_version: 1
+project_id: proyecto-arenero
+name: Proyecto Arenero
+stage: active
+priority: medium
+effort: medium
+progress_pct: 25
+health: yellow
+summary: >-
+  Repositorio personal de documentación técnica del arenero (motor Ford 6 cil.,
+  caja ZF). Base mecánica identificada y arreglos puntuales hechos; falta
+  formalizar planos, fotos y bitácora versionada.
+current_focus:
+  - centralizar info y fotos en el repo
+  - documentar componentes mecánicos y eléctricos
+  - registrar avances y decisiones ya realizadas
+pending:
+  - subir fotos de referencia
+  - armar bocetos y planos con medidas reales
+  - completar bitácora con últimos cambios mecánicos
+next_action: cargar fotos actuales y completar bitácora de cambios mecánicos pendientes
+blockers: []
+needs_decision: false
+can_delegate: false
+quick_win: subir set inicial de fotos y un resumen de estado mecánico actual
+last_human_update: 2026-05-14T10:10:00-03:00
+links:
+  repo: https://github.com/ndf14685/Proyecto-Arenero
+  docs: https://github.com/ndf14685/Proyecto-Arenero#readme
+notes: >-
+  Repo de documentación pura, sin código. El status refleja avance del proyecto
+  físico, no de software.
